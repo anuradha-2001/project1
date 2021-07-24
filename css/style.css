@@ -1,0 +1,108 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    color: white;
+    background: url('img/gym1.jpg')no-repeat;
+    background-size: cover;
+    font-family: 'RocknRoll One';
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    top: 10px;
+    left: 33px;
+    /* border: 2px solid red; */
+    font-family: 'RocknRoll One';
+    margin-top: 12px;
+}
+.left img{
+  width: 45px;
+  height: 20px;
+  filter: invert(100%);
+}
+
+.logolabel{
+  font-family: 'RocknRoll One';
+  font-size: 12px;
+}
+.mid{
+    display:block;
+    width: 40%;
+    padding-left: 70px;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+.navbar li{
+  display: inline-block;
+  margin: 5px 6px;
+  padding: 5px 5px;
+}
+
+.navbar a{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'RocknRoll One';
+}
+
+.navbar li a:hover,li a.active{
+  color: rgb(124, 123, 123);
+  text-decoration: underline;
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top: 25px;
+    /* border: 1px solid yellow; */
+}
+
+.btn{
+  margin: 5px;
+  background-color:transparent;
+  color: white;
+  border: 2px solid rgb(75, 74, 74);
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-family: 'RocknRoll One';
+  cursor: pointer;
+}
+.btn:hover{
+    color: grey;
+    border:1px solid white;
+}
+.container{
+  position: absolute;
+  border:1px solid white;
+  border-radius: 10px;
+  margin:40px;
+  padding: 20px;
+  width: 30%;
+  right: 0px;
+  text-align: center;
+}
+.container h3{
+  margin: 12px 0px;
+  font-size: 16px;
+}
+.form-group input{
+  text-align: center;
+  margin :5px;
+  padding:6px 35px;
+  border-radius: 7px;
+  font-size: 16px;
+  background: transparent;
+  border-color: white;
+}
+.container .btn{
+  padding: 5px 105px;
+  margin: 10px 0px;
+  font-size: 14px;
+}
